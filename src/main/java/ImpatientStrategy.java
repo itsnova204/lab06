@@ -4,13 +4,7 @@ public class ImpatientStrategy implements OrderingStrategy{
         bar.order(drink, recipe);
     }
 
-    @Override
-    public void happyHourStarted(StringBar bar) {
 
-    }
-
-    @Override
-    public void happyHourEnded(StringBar bar) {
-
-    }
+    public void happyHourStarted(StringBar bar) {}
+    public void happyHourEnded(StringBar bar) {}
 }

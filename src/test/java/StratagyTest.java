@@ -5,7 +5,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ImpatientStratagyTest {
+public class StratagyTest {
     private StringRecipe getRecipe() {
         StringInverter si = new StringInverter();
         StringCaseChanger cc = new StringCaseChanger();

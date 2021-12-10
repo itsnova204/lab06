@@ -17,7 +17,7 @@ public abstract class Bar implements BarObserver{
     public void endHappyHour()   {
         happyhour = false;
         notifyObservers();
-    };
+    }
 
     public void addObserver(BarObserver observer) {
         observers.add(observer);

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class SmartStrategy implements OrderingStrategy{
@@ -7,6 +8,9 @@ public class SmartStrategy implements OrderingStrategy{
     @Override
     public void wants(StringDrink drink, StringRecipe recipe, StringBar bar) {
         if (bar.isHappyHour()){ bar.order(drink,recipe); return;}
+
+        drinks = new ArrayList<>();
+        recipes = new ArrayList<>();
         drinks.add(drink);
         recipes.add(recipe);
     }
